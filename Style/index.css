@@ -1,0 +1,965 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 25%;
+    background-color: #005689;
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 17px;
+    padding-top: 1%;
+}
+
+.h1 {
+    width: 100%;
+}
+
+.sin {
+    text-decoration: none;
+    float: left;
+    color: #ffffff;
+    margin-right: 2%;
+}
+
+.head1 {
+    width: 85%;
+    float: left;
+}
+
+.head2 {
+    width: 15%;
+    float: left;
+}
+
+.sin1 {
+    text-decoration: none;
+    float: left;
+    color: #ffffff;
+    margin-left: 0%;
+    margin-right: 10%;
+}
+
+.homei {
+    float: left;
+    margin-left: 40%;
+}
+
+.h2 {
+    width: 65%;
+    margin-top: 2%;
+    float: left;
+}
+
+.h3 {
+    width: 30%;
+    margin-top: 3%;
+    float: right;
+    margin-left: 5%;
+}
+
+.ad {
+    width: 96%;
+    height: 45%;
+    border: 1px solid #93c2dd;
+    color: #93c2dd;
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+}
+
+.a1 {
+    width: 5%;
+    float: left;
+    margin-top: 2%;
+}
+
+.a2 {
+    width: 55%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.a3 {
+    width: 5%;
+    float: left;
+}
+
+.b {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #266f9b;
+    color: #93c2dd;
+    border-radius: 30px;
+}
+
+.business {
+    width: 100%;
+    float: right;
+}
+
+.title {
+    float: left;
+    font-family: serif;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: bold;
+    ;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    height: 45%;
+}
+
+.header2 {
+    height: 5%;
+    background-color: #00507f;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0px 5px 5px #efefef;
+}
+
+.menubg {
+    width: 100%;
+    height: 100%;
+    background-color: #00456e;
+}
+
+.icon {
+    float: left;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-top: 0.4%;
+    color: #ffffff;
+    padding-bottom: 0px;
+}
+
+.icon1 {
+    float: right;
+    margin-right: 2%;
+    margin-top: 0.7%;
+    color: #ffffff;
+}
+
+.menu {
+    float: left;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.7%;
+    color: #ffffff;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.menu:hover {
+    border-bottom: 4px solid #005689;
+}
+
+.da {
+    border: solid #ffffff;
+    border-width: 0px 3px 3px 0px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-bottom: 5px;
+}
+
+.td {
+    display: none;
+    width: 150px;
+    height: 300px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 4%;
+    position: absolute;
+    z-index: 1;
+}
+
+.list {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.list:hover {
+    background-color: #eeeeee;
+}
+
+.news:hover .td {
+    display: block;
+}
+
+.ez {
+    display: none;
+    width: 150px;
+    height: 300px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 15%;
+    position: absolute;
+    z-index: 1;
+}
+
+.euro:hover .ez {
+    display: block;
+}
+
+.invest {
+    display: none;
+    width: 150px;
+    height: 300px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 25%;
+    position: absolute;
+    z-index: 1;
+}
+
+.inv:hover .invest {
+    display: block;
+}
+
+.market {
+    display: none;
+    width: 150px;
+    height: 300px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 35%;
+    position: absolute;
+    z-index: 1;
+}
+
+.mkt:hover .market {
+    display: block;
+}
+
+.estate {
+    display: none;
+    width: 150px;
+    height: 300px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 45%;
+    position: absolute;
+    z-index: 1;
+}
+
+.est:hover .estate {
+    display: block;
+}
+
+.more1 {
+    display: none;
+    width: 150px;
+    height: 300px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 55%;
+    position: absolute;
+    z-index: 1;
+}
+
+.more:hover .more1 {
+    display: block;
+}
+
+.b2 {
+    width: 70px;
+    height: 40px;
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    top: 14%;
+    right: 0px;
+}
+
+.b3 {
+    width: 70px;
+    height: 40px;
+    border: none;
+    background-color: #eeeeee;
+    position: absolute;
+    top: 22%;
+    right: 0px;
+}
+
+.body1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+    clear: both;
+}
+
+.pic {
+    width: 24.7%;
+    height: 65%;
+    float: left;
+    margin-right: 0.3%;
+    margin-bottom: 2%;
+}
+
+.side1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+}
+
+.side2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 130%;
+}
+
+.side3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 202%;
+}
+
+.side4 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 272%;
+}
+
+.side5 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 337%;
+}
+
+.side6 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 412%;
+}
+
+.side7 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 477%;
+    right: 0;
+}
+
+.side8 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 552%;
+    right: 0;
+}
+
+.side9 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 627%;
+}
+
+.side10 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+}
+
+.body2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    clear: both;
+}
+
+.line {
+    border: 1px solid #4facea;
+}
+
+.head3 {
+    margin-left: 3%;
+    margin-bottom: 3%;
+    float: left;
+    width: 70%;
+}
+
+.heading {
+    font-size: 23px;
+    color: #005689;
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.grid {
+    text-align: right;
+    float: left;
+    width: 20%;
+    margin-top: 1%;
+}
+
+.move {
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+    color: #dcdcdc;
+    width: 25px;
+    height: 25px;
+    ;
+}
+
+.move:hover {
+    background-color: #005689;
+    color: #ffffff;
+}
+
+.body3 {
+    clear: both;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.climate {
+    width: 22%;
+    border-top: 2px solid #4facea;
+    float: left;
+}
+
+.block {
+    width: 73%;
+    margin-left: 5%;
+    border-top: 2px solid #4facea;
+    float: left;
+}
+
+.date {
+    color: #005689;
+}
+
+.i1 {
+    float: right;
+    margin-top: 5%;
+}
+
+.weather {
+    width: 100%;
+    height: 33%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.social {
+    width: 100%;
+    height: 6%;
+    background-color: #f2fafe;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.soclogo {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.fans {
+    float: left;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.support {
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.notif {
+    width: 100%;
+    height: 34%;
+    margin-top: 10%;
+}
+
+.head4 {
+    width: 50%;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    height: 85%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.w {
+    width: 100%;
+}
+
+.img1 {
+    width: 100%;
+    height: 80%;
+}
+
+.head5 {
+    width: 45%;
+    margin-left: 5%;
+    height: 85%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.topic {
+    margin-top: 6%;
+    padding-bottom: 10%;
+    clear: both;
+}
+
+.tp {
+    width: 30%;
+    height: 11%;
+    float: left;
+    margin-bottom: 10%;
+}
+
+.tt {
+    width: 65%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.head6 {
+    width: 100%;
+    height: 25%;
+    border-top: 2px solid #4facea;
+    background-color: #f2fafe;
+    clear: both;
+    margin-bottom: 4%;
+}
+
+.topic2 {
+    width: 30%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 13px;
+}
+
+.headlines2 {
+    font-weight: bold;
+    color: #005689;
+    font-size: 18px;
+}
+
+.body4 {
+    clear: both;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.atw1 {
+    width: 80%;
+    float: left;
+}
+
+.atw2 {
+    width: 20%;
+    float: left;
+}
+
+.atw3 {
+    margin-left: 8%;
+    font-size: 12px;
+    color: #7796ba;
+}
+
+.i2 {
+    width: 100%;
+    clear: both;
+}
+
+.img2 {
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.img3 {
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.img4 {
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.body5 {
+    clear: both;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.headlines3 {
+    width: 100%;
+    height: 15%;
+    border-top: 2px solid #4facea;
+    background-color: #f2fafe;
+    clear: both;
+    margin-bottom: 2%;
+}
+
+.s1 {
+    width: 18%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+    float: left;
+    font-size: 12px;
+}
+
+.body6 {
+    clear: both;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.r1 {
+    float: left;
+    width: 12%;
+}
+
+.r2 {
+    float: right;
+    width: 88%;
+}
+
+.op {
+    margin-left: 2%;
+    font-size: 13px;
+    color: #7796ba;
+}
+
+.opdd {
+    border: solid #7796ba;
+    border-width: 0px 1px 1px 0px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-bottom: 5px;
+}
+
+.r3 {
+    width: 100%;
+    float: left;
+}
+
+.imgr {
+    width: 45%;
+    height: 50%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.para {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    line-height: 25px;
+}
+
+.oil {
+    color: #005689;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.button2 {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #005689;
+    color: #ffffff;
+}
+
+.body7 {
+    clear: both;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sech {
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    clear: both;
+    margin-top: 2%;
+}
+
+.box1 {
+    width: 30%;
+    height: 50%;
+    border: 1px solid #e9f5fc;
+    float: left;
+    margin-bottom: 4%;
+}
+
+.box2 {
+    width: 29%;
+    height: 50%;
+    border: 1px solid #e9f5fc;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.secimg {
+    width: 100%;
+    height: 50%;
+}
+
+.secpara {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+}
+
+.pg {
+    width: 100%;
+}
+
+.pl {
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.page {
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+    color: #000000;
+    width: 30px;
+    height: 30px;
+    margin-right: 1%;
+}
+
+.pactive {
+    background-color: #005689;
+    color: #ffffff;
+}
+
+.page:hover {
+    background-color: #005689;
+    color: #ffffff;
+}
+
+.dot {
+    margin-right: 1%;
+}
+
+.pr {
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer {
+    clear: both;
+    background-size: cover;
+    width: 80%;
+    height: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.foo1 {
+    width: 30%;
+    float: left;
+    color: #eeeeee;
+    line-height: 30px;
+}
+
+.foo2 {
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 1px solid #585858;
+    color: #eeeeee;
+}
+
+.foo3 {
+    width: 30%;
+    float: left;
+    border-top: 1px solid #585858;
+    color: #eeeeee;
+}
+
+.logo2 {
+    float: left;
+    width: 23%;
+    height: 18%;
+    margin-bottom: 3%;
+}
+
+.title2 {
+    float: left;
+    font-family: serif;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.foopara {
+    clear: both;
+    margin-top: 3%;
+}
+
+.imp {
+    color: #7dc5e9;
+}
+
+.foologo {
+    clear: both;
+    margin-top: 3%;
+}
+
+.foob {
+    width: 30px;
+    height: 30px;
+    background-color: #3e3e3e;
+    border: 1px solid #3e3e3e;
+    opacity: 0.5;
+    float: left;
+    margin-right: 10%;
+}
+
+.foob:hover {
+    opacity: 1;
+}
+
+.foohead {
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.foonews {
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.fimg {
+    width: 30%;
+    height: 20%;
+    float: left;
+}
+
+.ftxt {
+    width: 65%;
+    margin-left: 5%;
+    float: left;
+}
+
+.ft {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    line-height: 25px;
+}
+
+.ft2 {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    padding-top: 7%;
+    line-height: 25px;
+    border-top: 1px dashed #585858;
+}
+
+.copyright {
+    width: 80%;
+    height: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #333333;
+    color: #eeeeee;
+    font-size: 13px;
+}
+
+.c1 {
+    width: 86%;
+    float: left;
+    margin-top: 1%;
+}
+
+.c2 {
+    width: 7%;
+    float: left;
+    margin-top: 1%;
+}
+
+.c3 {
+    width: 7%;
+    float: left;
+    margin-top: 1%;
+}
